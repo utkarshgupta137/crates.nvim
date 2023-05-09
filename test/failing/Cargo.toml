@@ -1,0 +1,6 @@
+[workspace]
+members = ["crate1", "crate2"]
+
+[dependencies]
+crate1 = { version="0.1", path = "crate1" }
+crate2 = { version="0.1", path = "crate2" }
